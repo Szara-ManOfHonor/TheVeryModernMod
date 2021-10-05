@@ -1,0 +1,17 @@
+﻿l_english:
+ #Madagascar
+ MAD_fascism:1 "Empire of Foxbitch"
+ MAD_fascism_DEF:1 "the Empire of Foxbitch"
+ MAD_democratic:0 "Democratic Outer Foxgirl Heaven Republic"
+ MAD_democratic_DEF:0 "the Democratic Outer Foxgirl Heaven Republic"
+ MAD_neutrality:1 "Outer Foxgirl Heaven Republic"
+ MAD_neutrality_DEF:1 "the Outer Foxgirl Heaven Republic"
+ MAD_communism:1 "Outer Foxgirl Heaven"
+ MAD_communism_DEF:1 "the Outer Foxgirl Heaven"
+ MAD_fascism_ADJ:1 "Foxgirlish"
+ MAD_democratic_ADJ:1 "Foxgirlish"
+ MAD_neutrality_ADJ:1 "Foxgirlish"
+ MAD_communism_ADJ:1 "Foxgirlish"
+ MAD:0 "Outer Foxgirl Heaven"
+ MAD_DEF:0 "Outer Foxgirl Heaven"
+ MAD_ADJ:0 "Foxgirlish"

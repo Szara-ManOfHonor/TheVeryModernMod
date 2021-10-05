@@ -36,6 +36,73 @@ country_event = {
 	}
 
 }
+
+# Anti Dutch Idea
+
+country_event = {
+	id = tvmm_usa.2
+	title = tvmm_usa.2.t
+	desc = tvmm_usa.2.d
+	hidden = yes
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    fire_only_once = no
+
+    trigger = {
+    	tag = USA
+        date > 1930.11.6
+        USA = {
+	        has_idea = keli_dutch
+	        not = {
+	            has_idea = tvmm_dutch_hate
+	        }
+        }
+    }
+	
+	# Add dutch_hate
+   immediate = {
+    	hidden_effect = {
+		add_ideas = tvmm_dutch_hate
+		}
+	}
+
+}
+
+country_event = {
+	id = tvmm_usa.3
+	title = tvmm_usa.3.t
+	desc = tvmm_usa.3.d
+	hidden = yes
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    fire_only_once = no
+
+    trigger = {
+    	tag = USA
+        date > 1930.11.6
+        USA = {
+	        has_idea = tvmm_dutch_hate
+	        not = {
+	            has_idea = keli_dutch
+	        }
+        }
+    }
+	
+	# remove dutch_hate
+   immediate = {
+    	hidden_effect = {
+		remove_ideas = tvmm_dutch_hate
+		}
+	}
+
+}
+
 #____________________________________________________________
 
 # GODDAMN FROG President of USA

@@ -58,14 +58,5 @@ leader_traits = {
 ##################################
 
 	
-	tvmm_dutch_hate = { 
-		type = land
-		trait_type = personality_trait
-		targeted_modifier = {
-			tag = HOL
-			attack_bonus_against = 100.0
-			defense_bonus_against = 100.0
-		}
-	}
 	
 }

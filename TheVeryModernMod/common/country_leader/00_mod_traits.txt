@@ -41,5 +41,12 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	tvmm_dutch_hate = { 
+		targeted_modifier = {
+			tag = HOL
+			attack_bonus_against = 100.0
+			defense_bonus_against = 100.0
+		}
+	}
 }
 

@@ -335,8 +335,7 @@ ideas = {
 
 	}
 	country = {
-			sokhmercs  = {
-		random = no
+		sokhmercs  = {
 			rule = {
 				can_send_volunteers = yes
 			}

@@ -1,0 +1,103 @@
+﻿add_namespace = tvmm_usa
+
+# Who is the new President of USA? (1940)
+#____________________________________________________________
+country_event = {
+	id = tvmm_usa.1
+	title = tvmm_usa.1.t
+	desc = tvmm_usa.1.d
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    fire_only_once = yes
+
+    trigger = {
+    	tag = USA
+        date > 1940.11.6
+        USA = {
+	        has_government = democratic
+	        not = {
+	            has_country_flag = new_1940_president_usa
+	        }
+        }
+    }
+	
+	# The goddamn frog will be president
+	option = {
+		name = tvmm_usa.1.a
+		ai_chance = { factor = 100 }
+		set_country_flag = new_1940_president_usa
+
+		hidden_effect = {
+			news_event = { days = 1 id = tvmm_usa.2 }
+		}
+	}
+
+}
+#____________________________________________________________
+
+# GODDAMN FROG President of USA
+#____________________________________________________________
+news_event = {
+    id = tvmm_usa.2
+    title = tvmm_usa.2.t
+    desc = tvmm_usa.2.d
+    picture = ww1_usa_5
+
+    major = yes
+    is_triggered_only=yes
+
+    immediate = {
+    	hidden_effect = {
+	    	USA = {
+	    		retire_country_leader = yes
+		        create_country_leader = {
+		            name = "The Modern Frog"
+		            desc = USA_frog_DESC 
+		            picture = "gfx/leaders/USA/Portrait_USA_frog.tga"
+		            expire = "2021.1.1"
+		            ideology = liberalism 
+					traits = { frog_modern }
+		        }
+		        add_political_power = -2000
+	    	}
+    	}
+		USA = {
+			declare_war_on = {
+				target = GER
+				type = puppet_wargoal_focus
+							 }
+		      }
+		USA = {
+			declare_war_on = {
+				target = SOV
+				type = puppet_wargoal_focus
+							 }
+		      }
+		USA = {
+			declare_war_on = {
+				target = JAP
+				type = puppet_wargoal_focus
+							 }
+		      }
+		USA = {
+			declare_war_on = {
+				target = ITA
+				type = puppet_wargoal_focus
+							 }
+		      }
+		USA = {
+			declare_war_on = {
+				target = HOL
+				type = puppet_wargoal_focus
+							 }
+		      }				  
+		
+    }
+    
+    option = {
+        name = tvmm_usa.2.a        
+    }
+}

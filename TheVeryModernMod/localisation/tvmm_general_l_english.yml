@@ -12,7 +12,7 @@
  useful_lesbian:0 "Useful lesbian"
  tvmm_son_pen:0 "Son of Pendragon"
  tvmm_son_pen_desc:0 "Nobody actually believes it"
- 
+ tvmm_slorch_trait:0 "*Game Paused* “FUCK”"
  
 #Unit Leader Traits
  tvmm_navy_ex_mia:0 "Ex MIA"
@@ -28,4 +28,7 @@
  
  #Ideologies
  monarchist:0 "Monarchist"
+ 
+#Diplomacy
+ tvmm_west_taiwan:0 "West Taiwan"
  

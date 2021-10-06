@@ -66,5 +66,11 @@ leader_traits = {
 		stability_factor = -0.25
 		production_speed_arms_factory_factor = 0.20
 	}
+	
+	tvmm_slorch_trait = {
+		army_attack_factor = -0.10
+		army_defence_factor = 0.05
+		max_command_power = -50
+	}
 }
 

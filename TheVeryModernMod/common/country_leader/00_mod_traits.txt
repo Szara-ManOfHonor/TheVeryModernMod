@@ -48,5 +48,13 @@ leader_traits = {
 			defense_bonus_against = 100.0
 		}
 	}
+	
+	bully_tomato =   {
+		stability_factor = -0.10
+		war_support_factor = -0.20
+		army_core_defence_factor = 0.20
+		army_core_attack_factor = 0.20
+		}
+
 }
 

@@ -57,6 +57,48 @@ leader_traits = {
 # Keli Trait
 ##################################
 
+	tvmm_navy_ex_mia = { 
+		type = navy
+		trait_type = personality_trait
+		
+		modifier = {
+			naval_has_potf_in_combat_attack = 0.1
+			naval_has_potf_in_combat_defense = 0.1
+			naval_enemy_retreat_chance = 0.2
+			navy_org = -1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
+	tvmm_crab_people = {
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			amphibious_invasion = 0.7 # 30% faster invasions
+			invasion_preparation = -0.3
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
+	tvmm_old_bay = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			supply_consumption_factor = -0.15
+		}
+		enable_ability = extra_suplies
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -54,10 +54,17 @@ leader_traits = {
 		war_support_factor = -0.20
 		army_core_defence_factor = 0.20
 		army_core_attack_factor = 0.20
-		}
+	}
 		
 	useful_lesbian = {
 		army_attack_factor = 0.15
+	}
+	
+	tvmm_son_pen = {
+		conscription = 0.05
+		justify_war_goal_time = 0.5
+		stability_factor = -0.25
+		production_speed_arms_factory_factor = 0.20
 	}
 }
 

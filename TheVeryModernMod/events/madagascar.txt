@@ -1,0 +1,35 @@
+﻿###########################
+# Add nukes at start
+###########################
+
+add_namespace = MAD_events
+
+country_event = {
+	id = MAD_events.1
+	title = MAD_events.1.t
+	desc = MAD_events.1.d
+	picture = GFX_report_event_african_soldiers
+	
+	fire_only_once = yes
+	hidden = yes
+	
+	    mean_time_to_happen = {
+        days = 0
+    }
+
+    trigger = {
+    	tag = MAD
+        date > 1930.11.6
+    }
+	
+    immediate = {
+    	hidden_effect = {
+	    	MAD = {
+				add_nuclear_bombs = 5
+		        add_political_power = -200
+	    	}
+    	} 	
+    }
+	
+
+}

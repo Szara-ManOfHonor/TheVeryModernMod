@@ -1,7 +1,7 @@
 ﻿l_english:
-#Trait names
+#Leader Traits
  frog_modern:0 "The Conductor"
- spanish_modrn:0 "Tomato Superiority"
+ spanish_modern:0 "Tomato Superiority" #Unsed
  nutbot:0 "I §OWill Cry§!"
  sokhfox:0 "Cornered Fox"
  wdwtlwfg:0 "Who wouldn't want to live with foxgirls?"
@@ -10,6 +10,22 @@
  bully_tomato:0 "A real bully of a tomato"
  talonair:0 "A gnome or something"
  useful_lesbian:0 "Useful lesbian"
+ tvmm_son_pen:0 "Son of Pendragon"
+ tvmm_son_pen_desc:0 "Nobody actually believes it"
+ 
+ 
+#Unit Leader Traits
+ tvmm_navy_ex_mia:0 "Ex MIA"
+ tvmm_navy_ex_mia_desc:0 "Nearly court-martialed after an unauthorized absene, this leader has ever since been out to prove himself"
+ tvmm_crab_people:0 "Crab People"
+ tvmm_crab_people_desc:0 "Swarms of crab people ascend from the depths, concerned with the affairs of the world of humanity. They grant us their aid, and Johnny has become their defacto liaison."
+ tvmm_old_bay:0 "Old Bay"
+ 
+ 
 #Dutch stuff
  tvmm_dutch_hate:0 "Distaste for all things Dutch"
- tvmm_dutch_hate_DES:0 "We can not stand them, will not put up with them, we will not tolerate them!"
+ tvmm_dutch_hate_desc:0 "We can not stand them, will not put up with them, we will not tolerate them!"
+ 
+ #Ideologies
+ monarchist:0 "Monarchist"
+ 

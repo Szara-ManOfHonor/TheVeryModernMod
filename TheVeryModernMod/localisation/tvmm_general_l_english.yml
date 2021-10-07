@@ -13,6 +13,10 @@
  tvmm_son_pen:0 "Son of Pendragon"
  tvmm_son_pen_desc:0 "Nobody actually believes it"
  tvmm_slorch_trait:0 "*Game Paused* “FUCK”"
+ tvmm_chris_trait:0 "China will not grow larger"
+ tvmm_chris_trait2:0 "Utahn Expat"
+ #tvmm_chris_idea:0 "Utahn Expat Mountaineer"
+ #tvmm_chis_idea_desc:0 "All generals guaranteed to start with the mountaineer trait"
  
 #Unit Leader Traits
  tvmm_navy_ex_mia:0 "Ex MIA"

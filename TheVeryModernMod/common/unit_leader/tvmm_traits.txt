@@ -54,7 +54,7 @@ leader_traits = {
 
 	
 ##################################
-# Keli Trait
+# General/Admiral Traits
 ##################################
 
 	tvmm_navy_ex_mia = { 
@@ -88,7 +88,7 @@ leader_traits = {
 		}
 	}
 	
-	tvmm_old_bay = { 
+	tvmm_old_bay = {
 		type = corps_commander
 		gain_xp = {
 			always = no # not gainable
@@ -101,4 +101,5 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
 }

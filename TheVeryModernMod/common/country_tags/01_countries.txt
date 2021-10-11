@@ -1,0 +1,3 @@
+CAC	= "countries/California.txt"
+KOS	= "countries/Kosovo.txt"
+QBC = "countries/Quebec.txt"

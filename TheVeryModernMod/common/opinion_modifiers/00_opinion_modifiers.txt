@@ -1098,4 +1098,8 @@ opinion_modifiers = {
 	tvmm_west_taiwan = {
 		value = -15
 	}
+	
+	tvmm_serbia_opinion = {
+		value = -20
+	}
 }

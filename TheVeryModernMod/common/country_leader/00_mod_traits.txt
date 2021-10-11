@@ -83,4 +83,10 @@ leader_traits = {
 		terrain_penalty_reduction = 0.15
 		send_volunteer_size = 2
 	}
+	
+	tvmm_root_trait = {
+		army_defence_factor = 0.40
+		justify_war_goal_time = -0.5
+		}
+
 }

@@ -31,4 +31,34 @@ country_event = {
 			}
     	} 	
     }
+}
+
+country_event = {
+	id = tvmm_global_events.2
+	title = tvmm_global_events.2.t
+	desc = tvmm_global_events.2.d
+	
+	fire_only_once = no
+	hidden = yes
+	
+	    mean_time_to_happen = {
+        days = 0
+		}
+
+    trigger = {
+        date > 1930.11.6
+		NOT = { has_country_flag = tvmm_serbia_opinion_flag }
+		
+    }
+	
+    immediate = {
+    	hidden_effect = {
+			set_country_flag = tvmm_serbia_opinion_flag
+			add_opinion_modifier = {
+				target = SER
+				modifier = tvmm_serbia_opinion
+			}
+    	} 	
+    }
+}
 	

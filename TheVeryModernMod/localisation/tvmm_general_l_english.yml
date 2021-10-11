@@ -18,6 +18,9 @@
  tvmm_root_trait:0 "Fuck Everyone I Can Take You All On"
  #tvmm_chris_idea:0 "Utahn Expat Mountaineer"
  #tvmm_chis_idea_desc:0 "All generals guaranteed to start with the mountaineer trait"
+ tvmm_lolman_trait1:0 "Alpen Fobbit"
+ tvmm_lolman_trait2:0 "Fobbiten Foreign Policy"
+ repair_speed_bunker_factor:0 "Fort repair speed"
  
 #Unit Leader Traits
  tvmm_navy_ex_mia:0 "Ex MIA"

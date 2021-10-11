@@ -15,6 +15,7 @@
  tvmm_slorch_trait:0 "*Game Paused* “FUCK”"
  tvmm_chris_trait:0 "China will not grow larger"
  tvmm_chris_trait2:0 "Utahn Expat"
+ tvmm_root_trait:0 "Fuck Everyone I Can Take You All On"
  #tvmm_chris_idea:0 "Utahn Expat Mountaineer"
  #tvmm_chis_idea_desc:0 "All generals guaranteed to start with the mountaineer trait"
  
@@ -35,4 +36,5 @@
  
 #Diplomacy
  tvmm_west_taiwan:0 "West Taiwan"
+ tvmm_serbia_opinion:0 "Fuck Everyone I Can Take You All On"
  

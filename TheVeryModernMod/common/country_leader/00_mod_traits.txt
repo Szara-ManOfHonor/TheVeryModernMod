@@ -114,7 +114,6 @@ leader_traits = {
 		female_random_country_leader_chance = 100.00
 		female_random_admiral_chance = 100.00
 		female_random_operative_chance = 100.00
-		can_generate_female_aces = yes
 	}
 
 }

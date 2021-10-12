@@ -60,6 +60,7 @@ set_technology = {
 		volunteer_only
 		low_economic_mobilisation
 		home_of_the_free
+		tvmm_sk8ter_female_pilots
 	}
 
 

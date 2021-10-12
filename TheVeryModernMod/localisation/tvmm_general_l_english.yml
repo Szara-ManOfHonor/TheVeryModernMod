@@ -22,7 +22,9 @@
  tvmm_lolman_trait2:0 "Fobbiten Foreign Policy"
  repair_speed_bunker_factor:0 "Fort repair speed"
  tvmm_sk8ter_trait:0 "Big Ass Enthusiast"
+ tvmm_sk8ter_female_pilots:0 "Big Ass Enthusiast"
  tvmm_skytech_trait:0 "Organized Chaos"
+
  
 #Unit Leader Traits
  tvmm_navy_ex_mia:0 "Ex MIA"
